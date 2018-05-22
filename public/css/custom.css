@@ -1,0 +1,41 @@
+.main-h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.image-gallery {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.image {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 390px;
+    max-height: 390px;
+}
+
+.pagination {
+	justify-content: center;
+}
+
+.upload-container {
+	display: flex;
+	justify-content: center;
+}
+
+.success.alert-success {
+	color: green;
+	text-align: center;
+}
+
+.alert-danger ul {
+    text-align: center;
+    list-style: none;
+}
